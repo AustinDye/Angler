@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("https://art.pixilart.com/efc7188c79a8211.gif");
+  background-size: cover;
+  font-family: "VT323", monospace;
+}
