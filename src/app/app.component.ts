@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angler';
+
+  pingas: number = 0;
+
+  play(): void {
+    this.pingas++;
+    console.log(this.pingas);
+  }
 }
